@@ -18,7 +18,7 @@ services:
                   context: ./nginx-load
                   dockerfile: Dockerfile
           ports: 
-            - "3000:3000"
+            - "3000:80"
           links: 
             - web
 
